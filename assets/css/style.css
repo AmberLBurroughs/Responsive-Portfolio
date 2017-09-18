@@ -470,6 +470,7 @@ input[type='submit'] {
     #about img {
         width: 200px;
         margin:0 20px 20px 0;
+        float: left;
     }
     figure {
         margin: 0;
