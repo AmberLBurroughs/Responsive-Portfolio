@@ -2,7 +2,7 @@
 
 A portfolio website built using HTML and CSS that show cases fluid design methods.
 
-![Portfolio screenshot](assets/images/responsive.gif "Portfolio screenshot")
+<img src="assets/images/responsive.gif?raw=true" >
 
 ## Getting Started
 
