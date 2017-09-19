@@ -2,7 +2,7 @@
 
 A portfolio website built using HTML and CSS that show cases fluid design methods.
 
-![alt text](https://dr5mo5s7lqrtc.cloudfront.net/items/2v3W0o3w3T0W1S011t3k/Image%202017-09-18%20at%204.04.40%20AM.png?X-CloudApp-Visitor-Id=2835160&v=a7be33eb "Portfolio screenshot")
+![alt text](https://cl.ly/1A113h330h06 "Portfolio screenshot")
 
 ## Getting Started
 
