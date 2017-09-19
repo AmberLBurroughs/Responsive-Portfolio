@@ -167,8 +167,8 @@ section {
     margin-bottom: 26px;
 }
 aside {
-    width: 75%;
-    max-width: 75%;
+    width: 100%;
+    max-width: 100%;
     float: none;
     background-color: #fff;
     margin-left: 0;
@@ -208,7 +208,7 @@ footer {
     width: 100%;
     text-align: center;
     border-top: 8px solid #4aaaa5;
-    padding: 2% 0;
+    padding: 4% 0;
 }
 label {
     display: block;
@@ -267,37 +267,38 @@ input[type='submit'] {
     height: 70px;
 }
 #about img {
-    width: 250px;
+    width: 100%;
     float: none;
     margin: 20px;
 }
 .section-content {
-    padding: 26px;
+    padding: 20px;
 }
 .wrap {
     border-top: 2px solid #ccc;
-    padding: 26px 0 0;
+    padding: 20px 0 0;
 }
 .content {
-    padding-bottom: 26px;
+    padding-bottom: 20px;
 }
 .connect-wrapper {
-    padding: 26px;
+    padding: 20px;
 }
-  /* ---- Float clearfix ---- */
 
-.clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
-}
-/*  -------------------- */
 .border {
     border: 1px solid #ddd;
 }
 .selected {
     color: #4aaaa5;
 }
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 
 /* Media Queries -------------------- */
 /* //////////////////
@@ -339,11 +340,6 @@ input[type='submit'] {
     }
     #about img {
         margin: 0 0 20px;
-        width: 100%;
-    }
-    aside {
-        width: 100%;
-        max-width: 100%;
     }
     .connect-wrapper {
         padding: 20px;
@@ -357,9 +353,6 @@ input[type='submit'] {
     }
     figure:last-of-type {
         margin-bottom: 0;
-    }
-    footer {
-        padding: 4% 0;
     }
 }
 /* //////////////////
@@ -423,6 +416,9 @@ input[type='submit'] {
     }
     figure:last-of-type {
         margin-bottom: 0;
+    }
+     footer {
+        padding: 2% 0;
     }
 }
 /* //////////////////
